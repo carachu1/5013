@@ -4,6 +4,8 @@ The original paper: [EfficientNetV2: Smaller Models and Faster Training](https:/
 
 The open source code link: https://github.com/google/automl/tree/master/efficientnetv2
 
+Our codes are also submitted to the canvas.
+
 `model_training.py`: using CFAIR10 dataset to train three models.
 
 The file fold of `fine-tuning-cars` contains `dataset.py`, `model.py`, `predict.py`, `utils.py`, `train_s.py`, `train_m.py`, `train_l.py` and relatively `trans_effv2_weights.py` of these three models.
@@ -125,5 +127,4 @@ The primary function of this code is to convert TensorFlow model weights to PyTo
 
 # The result of fine-tuning
 <img width="489" alt="image" src="https://github.com/carachu1/5013/assets/150044043/aa8c549a-697b-40b7-b6cd-ffc151a39c1f">
-
 
